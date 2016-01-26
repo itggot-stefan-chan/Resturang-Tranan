@@ -11,6 +11,7 @@ a {
 
 .container {
     border-radius: 10px;
+    height: 100%;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -77,14 +78,58 @@ h1.maintitle {
     padding: .5em;
 }
 
-section.main {
-    margin-top: 2em;
-    padding: 0 3em;
+div #Ris {
+    width: 235px;
+    height: 200px;
+    margin-left: 48px;
+    margin-top: 48px;
+    float: left;
+    background-color: rgba(64,64,64,0.5);
 }
 
-section.main h1 {
-    padding: .5em;
-    border-top: 1px solid rgba(255,255,255,0.5);
+div #Nudlar {
+    width: 235px;
+    height: 200px;
+    margin-left: 48px;
+    margin-top: 48px;
+    float: left;
+    background-color: rgba(64,64,64,0.5);
+}
+
+div #Kött {
+    width: 235px;
+    height: 200px;
+    margin-left: 48px;
+    margin-top: 48px;
+    float: left;
+    background-color: rgba(64,64,64,0.5);
+}
+
+div #Skaldjur {
+    width: 235px;
+    height: 200px;
+    margin-left: 48px;
+    margin-top: 48px;
+    float: left;
+    background-color: rgba(64,64,64,0.5);
+}
+
+div #Vegitarisk {
+    width: 235px;
+    height: 200px;
+    margin-left: 48px;
+    margin-top: 48px;
+    float: left;
+    background-color: rgba(64,64,64,0.5);
+}
+
+div #Trana {
+    width: 235px;
+    height: 200px;
+    margin-left: 48px;
+    margin-top: 48px;
+    float: left;
+    background-color: rgba(64,64,64,0.5);
 }
 
 .ingress {
