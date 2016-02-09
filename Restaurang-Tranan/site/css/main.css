@@ -28,8 +28,8 @@ header nav {
     float: right;
     display: block;
     height: 40px;
-    width: 500px;
-    margin-right: 250px;
+    width: 600px;
+    margin-right: 150px;
     margin-left: auto;
 }
 
@@ -234,4 +234,11 @@ footer .social .icon a {
         display: none;
     }
 
+}
+
+div #boka-bord {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 300px;
+    margin-top: 10px;
 }
