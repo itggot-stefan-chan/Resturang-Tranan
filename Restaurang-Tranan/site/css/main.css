@@ -176,6 +176,8 @@ footer {
     height: 32px;
     padding: 1em 3em;
     background-color: rgba(0,0,0,0.5);
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 footer .copyright {
@@ -240,4 +242,5 @@ div #boka-bord {
     padding-top: 10px;
     width: 300px;
     margin-top: 10px;
+    margin-left: 1em;
 }
