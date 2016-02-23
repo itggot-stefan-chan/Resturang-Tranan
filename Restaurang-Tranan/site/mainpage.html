@@ -2,15 +2,25 @@
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Restaurang Tranan</title>
     <link rel="stylesheet" href="css/main.css" type="text/css" >
+    <script src="./js/jQuery.mmenu-master/src/js/jquery.mmenu.js" type="text/javascript"></script>
+    <script src="./js/jQuery.mmenu-master/src/js/jquery.mmenu.oncanvas.js" type="text/javascript"></script>
+    <link href="./js/jQuery.mmenu-master/src/css/jquery.mmenu.oncanvas.scss" type="text/css" rel="stylesheet" />
     <script src="js/jquery-2.2.0.js"></script>
     <script src="js/slideshow.js"></script>
 </head>
 <body>
 <div class="container">
     <header>
-        <nav>
+        <nav id="my-menu">
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $("#my-menu").mmenu();
+                });
+            </script>
             <ul>
                 <li><a href="mainpage.html">Start</a></li>
                 <li><a href="./boka_bord.html" target="_blank">Boka Bord</a> </li>
@@ -28,13 +38,16 @@
     <section class="main">
         <div id="slideshow">
             <div>
-                <img src="//farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg">
+                <img src="./img/slideshow1.jpg">
             </div>
             <div>
-                <img src="//farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
+                <img src="./img/slideshow2.jpg">
             </div>
             <div>
-                Pretty cool eh? This slide is proof the content can be anything.
+                <img src="./img/slideshow3.jpg">
+            </div>
+            <div>
+                <img src="./img/slideshow4.jpg">
             </div>
         </div>
         <p class="ingress">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolore explicabo facere, fugit ipsum libero molestiae molestias omnis optio unde!</p>

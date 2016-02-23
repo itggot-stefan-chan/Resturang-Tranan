@@ -218,6 +218,15 @@ footer .social .icon a {
     height: 100%;
 }
 
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 600px;
+    height: 410px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
 @media (max-width: 600px) {
 
     .container {
@@ -235,6 +244,14 @@ footer .social .icon a {
         display: none;
     }
 
+    #slideshow {
+        width: calc(100% - 20px);
+        height: auto;
+    }
+
+    img {
+        width: 100%;
+    }
 }
 
 div #boka-bord {
@@ -245,19 +262,28 @@ div #boka-bord {
     margin-left: 1em;
 }
 
-#slideshow {
-    margin: 50px auto;
-    position: relative;
-    width: 240px;
-    height: 240px;
-    padding: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
-}
-
 #slideshow > div {
     position: absolute;
     top: 10px;
     left: 10px;
     right: 10px;
     bottom: 10px;
+}
+
+@media (min-width: 1920px) {
+
+    .container {
+        width: 73%;
+    }
+
+    article p {
+        columns: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+
+    span.landscape-only {
+        display: none;
+    }
+
 }
