@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Boka Bord</title>
     <<link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
@@ -10,11 +11,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="./mainpage.html">Start</a></li>
-                <li><a href="./boka_bord.html" target="_blank">Boka Bord</a> </li>
-                <li><a href="./meny.html" target="_blank">Meny</a></li>
-                <li><a href="./Take_Away.html" target="_blank">Take-Away</a></li>
-                <li><a href="./kontakt.html" target="_blank">Kontakta Oss</a></li>
+                <li><a href="mainpage.html">Start</a></li>
+                <li><a href="./boka_bord.html">Boka Bord</a> </li>
+                <li><a href="./meny.html">Meny</a></li>
+                <li><a href="kontakt.html">Kontakta Oss</a></li>
             </ul>
         </nav>
         <div class="logo" alt="Logo" title="Logo">
@@ -26,15 +26,15 @@
     <div id="boka-bord">
         <form id="form" name="form" method="post" action="">
             Förnamn:<br/>
-            <input type="text name="fnamn" id="fnamn" /><br/>
+            <input type="text" name="fnamn" id="fnamn" /><br/>
             Efternamn:<br/>
-            <input type="text name="enamn" id="enamn" /><br/>
+            <input type="text" name="enamn" id="enamn" /><br/>
             E-postadress:<br/>
-            <input type="text name="epost" id="epost" /><br/>
+            <input type="text" name="epost" id="epost" /><br/>
             Hur många är sällskapet?<br/>
             <select name="antal" id="antal">
                 <option >1</option>
-                <option >2></option>
+                <option >2</option>
                 <option >3</option>
                 <option >4</option>
                 <option >5</option>
@@ -48,23 +48,12 @@
            </select>
             <br>
             Övriga önskemål:<br/>
-            <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea/><br/>
+            <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea><br/>
             <input type="submit" name="Skicka" id="Skicka" value="Skicka meddelande">
         </form>
     </div>
     <footer>
         <div class="copyright"><span class="landscape-only"> Copyright </span> © 2015 Restaurang Tranan ™</div>
-        <div class="social">
-            <div class="icon facebook">
-                <a href="#"></a>
-            </div>
-            <div class="icon twitter">
-                <a href="#"></a>
-            </div>
-            <div class="icon vimeo">
-                <a href="#"></a>
-            </div>
-        </div>
     </footer>
 </div>
 </body>
